@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_local"
+        android:icon="@mipmap/ic_h5"
+        android:orderInCategory="80"
+        android:title="本地html"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_github"
+        android:icon="@mipmap/ic_github"
+        android:orderInCategory="80"
+        android:title="网络html"
+        app:showAsAction="ifRoom" />
+
+</menu>

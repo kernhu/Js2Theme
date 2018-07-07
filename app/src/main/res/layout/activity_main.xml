@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.walkpast.js2theme.MainActivity">
+
+    <TextView
+        android:id="@+id/switch_theme"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="#D5D5D5"
+        android:gravity="center"
+        android:text="切换夜间模式"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:visibility="visible"/>
+
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/switch_theme"
+        android:layerType="software"></WebView>
+
+</RelativeLayout>
