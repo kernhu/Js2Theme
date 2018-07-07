@@ -1,26 +1,21 @@
-body
-{
-background: #1e3e4a;
-}
-h2
-{
-color:#bbc5c8
-}
-#content
-{
-font-family: "Segoe UI","Lucida Grande",Helvetica,Arial,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif;
-font-weight: 400;
-line-height: 1.6;
-color: #8e9ea4;
-word-wrap: break-word;
-}
-#source
-{
-font-size: 1.0rem;
-color: #8e9ea4;
-}
-a {
-  background-color: transparent;
-  text-decoration: none;
-  color:#9999d6;
-}
+div,section,ul,li,a,h1,h2,h3,p,link,textarea,form,select,input,span,button,em,menu,aside,table,tr,td,nav,img,dl,dt,dd, html, body,strong{
+    background:#222222 !important;color:#888888!important;
+    border-color:#555555 !important;
+    scrollbar-arrow-color:#CCCCCC !important;
+    scrollbar-base-color:#222222 !important;
+    scrollbar-shadow-color:#222222 !important;
+    scrollbar-face-color:#222222 !important;
+    scrollbar-highlight-color:#222222 !important;
+    scrollbar-dark-shadow-color:#222222 !important;
+    scrollbar-3d-light-color:#222222 !important;
+    scrollbar-track-color:#222222 !important;}
+strong{display:block;}
+a,a *{color:#888888 !important;text-decoration:none !important;}a:visited,a:visited *,a:active,a:active *{color:#555555 !important;}
+a:hover,a:hover *{color:#888888 !important;
+    background:#222222 !important;}
+input,select,option,button,textarea{color:#888888 !important;
+    background:#222222 !important;
+    border:#555555 !important;
+    border-color: #888888 #888888 #888888 #888888 !important;}
+input:focus,select:focus,option:focus,button:focus,textarea:focus,input:hover,input[type=button],input[type=submit],input[type=reset],input[type=image] {border-color: #888888 #888888 #888888 #888888 !important;}
+input[type=button]:focus,input[type=submit]:focus,input[type=reset]:focus,input[type=image]:focus, input[type=button]:hover,input[type=submit]:hover,input[type=reset]:hover,input[type=image]:hover {color:#888888 !important;background:#222222 !important; border-color: #888888 #888888 #888888 #888888 !important;}

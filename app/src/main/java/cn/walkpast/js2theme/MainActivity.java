@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //允许多窗口
         mSettings.setSupportMultipleWindows(true);
         //加载本地html文件
-        mWebView.loadUrl("file:///android_asset/test_theme.html");
+        mWebView.loadUrl("https://github.com/KernHu");
         //加载网络url--百度新闻；
         // mWebView.loadUrl("http://news.china.com/internationalgd/10000166/20171024/31596520.html");
         //加载网络url--腾讯新闻；
@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-
+        isDayTheme=true;
         switch (item.getItemId()) {
 
             case R.id.action_local:
